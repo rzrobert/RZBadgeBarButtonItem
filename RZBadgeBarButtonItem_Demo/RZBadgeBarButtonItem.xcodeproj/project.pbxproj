@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2228711B1E694C4600C0D9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228711A1E694C4600C0D9D3 /* main.m */; };
+		2228711E1E694C4600C0D9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228711D1E694C4600C0D9D3 /* AppDelegate.m */; };
+		222871211E694C4600C0D9D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222871201E694C4600C0D9D3 /* ViewController.m */; };
+		222871241E694C4600C0D9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222871221E694C4600C0D9D3 /* Main.storyboard */; };
+		222871261E694C4600C0D9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222871251E694C4600C0D9D3 /* Assets.xcassets */; };
+		222871291E694C4600C0D9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222871271E694C4600C0D9D3 /* LaunchScreen.storyboard */; };
+		222871311E694F1900C0D9D3 /* msg.png in Resources */ = {isa = PBXBuildFile; fileRef = 222871301E694F1900C0D9D3 /* msg.png */; };
+		222871351E694F5D00C0D9D3 /* RZBadgeBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 222871341E694F5D00C0D9D3 /* RZBadgeBarButtonItem.m */; };
+		222871371E69518300C0D9D3 /* notice.png in Resources */ = {isa = PBXBuildFile; fileRef = 222871361E69518300C0D9D3 /* notice.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222871161E694C4600C0D9D3 /* RZBadgeBarButtonItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZBadgeBarButtonItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2228711A1E694C4600C0D9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2228711C1E694C4600C0D9D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2228711D1E694C4600C0D9D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2228711F1E694C4600C0D9D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		222871201E694C4600C0D9D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		222871231E694C4600C0D9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222871251E694C4600C0D9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222871281E694C4600C0D9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2228712A1E694C4600C0D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222871301E694F1900C0D9D3 /* msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg.png; sourceTree = "<group>"; };
+		222871331E694F5D00C0D9D3 /* RZBadgeBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZBadgeBarButtonItem.h; sourceTree = "<group>"; };
+		222871341E694F5D00C0D9D3 /* RZBadgeBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZBadgeBarButtonItem.m; sourceTree = "<group>"; };
+		222871361E69518300C0D9D3 /* notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notice.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222871131E694C4600C0D9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2228710D1E694C4600C0D9D3 = {
+			isa = PBXGroup;
+			children = (
+				222871181E694C4600C0D9D3 /* RZBadgeBarButtonItem */,
+				222871171E694C4600C0D9D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222871171E694C4600C0D9D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222871161E694C4600C0D9D3 /* RZBadgeBarButtonItem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222871181E694C4600C0D9D3 /* RZBadgeBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				222871321E694F3900C0D9D3 /* RZBadgeBarButtonItem */,
+				222871301E694F1900C0D9D3 /* msg.png */,
+				222871361E69518300C0D9D3 /* notice.png */,
+				2228711C1E694C4600C0D9D3 /* AppDelegate.h */,
+				2228711D1E694C4600C0D9D3 /* AppDelegate.m */,
+				2228711F1E694C4600C0D9D3 /* ViewController.h */,
+				222871201E694C4600C0D9D3 /* ViewController.m */,
+				222871221E694C4600C0D9D3 /* Main.storyboard */,
+				222871251E694C4600C0D9D3 /* Assets.xcassets */,
+				222871271E694C4600C0D9D3 /* LaunchScreen.storyboard */,
+				2228712A1E694C4600C0D9D3 /* Info.plist */,
+				222871191E694C4600C0D9D3 /* Supporting Files */,
+			);
+			path = RZBadgeBarButtonItem;
+			sourceTree = "<group>";
+		};
+		222871191E694C4600C0D9D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2228711A1E694C4600C0D9D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		222871321E694F3900C0D9D3 /* RZBadgeBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				222871331E694F5D00C0D9D3 /* RZBadgeBarButtonItem.h */,
+				222871341E694F5D00C0D9D3 /* RZBadgeBarButtonItem.m */,
+			);
+			name = RZBadgeBarButtonItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222871151E694C4600C0D9D3 /* RZBadgeBarButtonItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228712D1E694C4600C0D9D3 /* Build configuration list for PBXNativeTarget "RZBadgeBarButtonItem" */;
+			buildPhases = (
+				222871121E694C4600C0D9D3 /* Sources */,
+				222871131E694C4600C0D9D3 /* Frameworks */,
+				222871141E694C4600C0D9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZBadgeBarButtonItem;
+			productName = RZBadgeBarButtonItem;
+			productReference = 222871161E694C4600C0D9D3 /* RZBadgeBarButtonItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2228710E1E694C4600C0D9D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "任征";
+				TargetAttributes = {
+					222871151E694C4600C0D9D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y8E8249YT7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 222871111E694C4600C0D9D3 /* Build configuration list for PBXProject "RZBadgeBarButtonItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2228710D1E694C4600C0D9D3;
+			productRefGroup = 222871171E694C4600C0D9D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222871151E694C4600C0D9D3 /* RZBadgeBarButtonItem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222871141E694C4600C0D9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222871291E694C4600C0D9D3 /* LaunchScreen.storyboard in Resources */,
+				222871371E69518300C0D9D3 /* notice.png in Resources */,
+				222871311E694F1900C0D9D3 /* msg.png in Resources */,
+				222871261E694C4600C0D9D3 /* Assets.xcassets in Resources */,
+				222871241E694C4600C0D9D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222871121E694C4600C0D9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222871351E694F5D00C0D9D3 /* RZBadgeBarButtonItem.m in Sources */,
+				222871211E694C4600C0D9D3 /* ViewController.m in Sources */,
+				2228711E1E694C4600C0D9D3 /* AppDelegate.m in Sources */,
+				2228711B1E694C4600C0D9D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		222871221E694C4600C0D9D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222871231E694C4600C0D9D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		222871271E694C4600C0D9D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222871281E694C4600C0D9D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2228712B1E694C4600C0D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2228712C1E694C4600C0D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2228712E1E694C4600C0D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8E8249YT7;
+				INFOPLIST_FILE = RZBadgeBarButtonItem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = robret.RZBadgeBarButtonItem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2228712F1E694C4600C0D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8E8249YT7;
+				INFOPLIST_FILE = RZBadgeBarButtonItem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = robret.RZBadgeBarButtonItem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222871111E694C4600C0D9D3 /* Build configuration list for PBXProject "RZBadgeBarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228712B1E694C4600C0D9D3 /* Debug */,
+				2228712C1E694C4600C0D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2228712D1E694C4600C0D9D3 /* Build configuration list for PBXNativeTarget "RZBadgeBarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228712E1E694C4600C0D9D3 /* Debug */,
+				2228712F1E694C4600C0D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2228710E1E694C4600C0D9D3 /* Project object */;
+}
